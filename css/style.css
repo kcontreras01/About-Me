@@ -62,12 +62,12 @@ section a:hover {
 }
 
 .banner {
-/*	width: 1618px;*/
+	width: 1618px;
 	height: 1080px;
 	margin: 0 auto;
 	background: url("../images/IMG_0971.PNG") center top no-repeat;
-/*	-webkit-background-size: 100% auto;
- -moz-background-size: 100% auto;*/
+	-webkit-background-size: 100% auto;
+ -moz-background-size: 100% auto;
  background-size: auto;
  display: block;
 }
@@ -75,6 +75,7 @@ section a:hover {
 #contact {
 	background:  #e6e6ff url('../images/cat.png') center bottom fixed no-repeat;
 	height: 700px;
+		width: 1618px;
 }
 
 #clickme {
