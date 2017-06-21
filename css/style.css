@@ -66,8 +66,8 @@ section a:hover {
 	height: 1080px;
 	margin: 0 auto;
 	background: url("../images/IMG_0971.PNG") center top no-repeat;
-	-webkit-background-size: 100% auto;
- -moz-background-size: 100% auto;
+/*	-webkit-background-size: 100% auto;
+ -moz-background-size: 100% auto;*/
  background-size: auto;
  display: block;
 }
