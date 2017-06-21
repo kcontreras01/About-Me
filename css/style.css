@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	max-width: 1618px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-color: #4d004d;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	float: left;
+	font-size: 90px;
+	padding: 200px 0 0 0;
+	border-bottom: solid white 2px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+h2 {
+	font-size: 50px;
+	margin-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size: 50px;
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+article {
+	height: 600px;
+	background: url("../images/marble.jpg");
+}
+
+p {
+	font-size: 35px;
+	line-height: 1.5;
+	padding-left: 90px;
+	padding-top: 10px;
+	text-indent: 10px;
+}
+
+li {
+ padding: 7px 0;
+ border-bottom: 1px dashed #666666;
+ list-style: none;
+}
+
+section a {
+ text-decoration: none;
+}
+
+section a:hover {
+ color: #ccc;
+}
+
+.banner {
+	width: 1618px;
+	height: 1080px;
+	margin: 0 auto;
+	background: url("../images/IMG_0971.PNG") center top no-repeat;
+	-webkit-background-size: 100% auto;
+ -moz-background-size: 100% auto;
+ background-size: auto;
+ display: block;
+}
+
+#contact {
+	background:  #e6e6ff url('../images/cat.png') center bottom fixed no-repeat;
+	height: 700px;
+}
+
+#clickme {
+	font-size: 35px;
+	border-bottom: 5px solid black;
+	border-right: 2px solid grey;
+	padding: 10px;
+	background-color: lightgrey;
+	display: inline-block;
+	margin: 50px 0 0 100px;
+	float: left;
+}
+
+#list {
+ float: left;
+ width: 210px;  
+ padding-right: 30px;
+ margin-top: 20px;
+ font-size: 35px;
+ padding-left: 90px;
+}
+
