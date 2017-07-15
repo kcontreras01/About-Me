@@ -1,17 +1,19 @@
+<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-	max-width: 1618px;
+/*	width: 1618px;*/
 	margin: 0 auto;
 	padding: 0 auto;
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-color: #4d004d;
+	background-color: white;
 }
 
-h1 {
+/*h1 {
 	color: rgb(255, 255, 255);
 	float: left;
 	font-size: 90px;
@@ -24,28 +26,59 @@ h1 {
 h2 {
 	font-size: 50px;
 	margin-left: 50px;
-	padding-top: 50px;
-	padding-bottom: 20px;
+	padding: 50px 0 20px 0;
 }
 
 h3 {
 	font-size: 50px;
 	padding-top: 50px;
 	margin-left: 50px;
+}*/
+
+/*h1, h2, h3 {
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
 }
 
-article {
-	height: 600px;
-	background: url("../images/marble.jpg");
+h1 {
+  font-size: 4em;
+  line-height: 1.35em;
+  margin: 0 auto;
+  padding: 1.1em;
+  text-align: center;
+  color: #ffffff;
 }
 
-p {
+h2 {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  display: inline-block;
+  padding-bottom: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+*/
+section {
+  padding: 6em 0 4em 0;
+  margin: 0 auto;
+  width: 65em;
+  text-align: center;
+}
+
+/*p {
 	font-size: 35px;
 	line-height: 1.5;
 	padding-left: 90px;
 	padding-top: 10px;
 	text-indent: 10px;
-}
+}*/
 
 li {
  padding: 7px 0;
@@ -61,40 +94,21 @@ section a:hover {
  color: #ccc;
 }
 
-.banner {
-	width: 1618px;
-	height: 1080px;
-	margin: 0 auto;
-	background: url("../images/IMG_0971.PNG") center top no-repeat;
-	-webkit-background-size: 100% auto;
- -moz-background-size: 100% auto;
- background-size: auto;
- display: block;
-}
+/*.banner {
+width: 1618px;
+height: 1080px;
+margin: 0 auto;
+background: url("../images/IMG_0971.PNG") center top no-repeat;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+background-size: auto;
+display: block;
+}*/
 
 #contact {
-	background:  #e6e6ff url('../images/cat.png') center bottom fixed no-repeat;
-	height: 700px;
-		width: 1618px;
+background:  #e6e6ff url('../images/cat.png') center bottom fixed no-repeat;
+height: 700px;
+width: auto;
 }
 
-#clickme {
-	font-size: 35px;
-	border-bottom: 5px solid black;
-	border-right: 2px solid grey;
-	padding: 10px;
-	background-color: lightgrey;
-	display: inline-block;
-	margin: 50px 0 0 100px;
-	float: left;
-}
-
-#list {
- float: left;
- width: 210px;  
- padding-right: 30px;
- margin-top: 20px;
- font-size: 35px;
- padding-left: 90px;
-}
 

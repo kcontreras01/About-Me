@@ -4,14 +4,70 @@
 <head>
 	<title>About Me | Kiara Contreras</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 <body>
 	<section class="banner">
 		<h1>Kiara Contreras</h1>
 	</section>
-	<article>
+	<body>
+    <header>
+      <div id="header-content">
+        <h1>Kiara Contreras</h1>
+      </div>
+    </header>
+    <div id="fullpage">
+  <div class="section">
+    <div class="slide">
+      <h2>Experience</h2>
+        <h3>Genius | Apple Soho</h3>
+          <p>October 2016 - August 2017</p>
+        <h3>Technical Specialist | Apple Soho</h3>
+          <p>November 2015 - October 2016</p>
+        <h3>Technical Specialist | Apple Williamsburg</h3>
+          <p>July 2016 - September 2016</p>
+    </div>
+    <div class="slide">
+      <h2>Education</h2>
+        <h3>CUNY Queens College</h3>
+          <p>Bachelor of Arts - Media Studies</p>
+          <p>Graduated August 2015</p>
+        <h3>General Assembly</h3>
+          <p>Front End Web Development - July 2017</p>
+    </div>
+    <div class="slide">
+      <h2>Skills</h2>
+    </div>
+    <div class="slide">
+      <h2>Contact</h2>
+        <ul class="blogroll">
+          <li><a href="mailto: kcontreras01@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/kiara-contreras/">Linkedin</a></li>
+          <li><a href="https://github.com/kcontreras01">Github</a></li>
+          <li><a href="https://codepen.io/kcontreras01/">Codepen</a></li>
+          <li>(718) 724-3529</li>
+        </ul>
+    </div>
+  </div>
+</div>
+<!--     <section>
+      <h2>Education</h2>
+      <div class="cards">
+        <div class="card">
+          <span class="fa fa-area-chart"></span>
+          <h3>CUNY Queens College</h3>
+          <p>Bachelor of Arts - Media Studies</p>
+          <p>Graduated August 2015</p>
+        </div>
+        <div class="card">
+          <span class="fa fa-bar-chart"></span>
+          <h3>General Assembly</h3>
+          <p>Front End Web Development - July 2017</p>
+        </div>
+      </div>
+    </section> -->
+<!-- 	<article>
 	<h2>About Me</h2>
 		<p>Hey!<br />Welcome to my Web Development Immersive Application page. It isn't super fancy, but thanks for visiting.</p>
 		<p>My name is Kiara and I'm a 24 year old native New Yorker. I currently am a Genius at Apple. This means I take appointments and I'm certified to repair Macs and iPhones!</p>
@@ -30,7 +86,18 @@
           </ul>
          </div>
 		<div id="clickme">Click button to count</div>
-	</section>
+	</section> -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script src="vendors/jquery.easings.min.js"></script>
+  <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#fullpage').fullpage();
+    });
+
+
+  </script>
 	<script type="text/javascript" src="js/project.js"></script>
 </body>
 </html>
